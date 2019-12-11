@@ -25,7 +25,7 @@ export default function Home() {
     <Figure>
       <Carousel>
         <Carousel.Item>
-          <img className="d-block w-100" src={aaaa} alt="First slide" />
+          <img className="d-block w-50" src={aaaa} alt="First slide" />
           <Carousel.Caption>
             <h3 class="carousel">Cursos de Qualidade</h3>
             <p class="carousel">Sites parceiros</p>
@@ -33,7 +33,7 @@ export default function Home() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-50"
             src={pessoas}
             alt="second slide"
           />
@@ -44,12 +44,12 @@ export default function Home() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={qualificacao} alt="Third slide" />
+          <img className="d-block w-50" src={qualificacao} alt="Third slide" />
 
           <Carousel.Caption>
             <h3 class="carousel">Extras</h3>
             <p class="carousel">
-              
+
             </p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -118,11 +118,11 @@ const Body = styled.body`
     max-width: 15em;
   }
   .eve{
-    padding-top: 1em; 
+    padding-top: 1em;
     padding-bottom: 1em;
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
     border: 3px solid #4F76E8;
     background: #c4c4c4;
     margin: 7em 10em 0em 10em;
@@ -130,7 +130,7 @@ const Body = styled.body`
     border-radius: 30px;
   }
   .exc{
-    padding-top: 1em; 
+    padding-top: 1em;
     padding-bottom: 1em;
     border: 3px solid #c4c4c4;
     background: #4F76E8;
@@ -145,7 +145,7 @@ const Body = styled.body`
     list-style: none;
   }
   .cursos{
-    padding-top: 1em; 
+    padding-top: 1em;
     padding-bottom: 1em;
     border: 3px solid #4f76e8;
     background: #c4c4c4;
@@ -154,7 +154,7 @@ const Body = styled.body`
     margin: 1em 10em 0em 10em;
   }
   .intro{
-    padding-top: 1em; 
+    padding-top: 1em;
     padding-bottom: 1em;
     border: 3px solid #c4c4c4;
     background: #4F76E8;
