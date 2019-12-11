@@ -107,7 +107,7 @@ const Sec = styled.section`
 const Body = styled.body`
 
 body{
-  width:1000px;
+  max-width:800px;
   heigth:900px;
 }
 
