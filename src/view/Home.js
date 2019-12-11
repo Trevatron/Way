@@ -25,7 +25,7 @@ export default function Home() {
     <Figure>
       <Carousel>
         <Carousel.Item>
-          <img className="d-block w-50" src={aaaa} alt="First slide" />
+          <img className="d-block w-100" src={aaaa} alt="First slide" />
           <Carousel.Caption>
             <h3 class="carousel">Cursos de Qualidade</h3>
             <p class="carousel">Sites parceiros</p>
@@ -33,7 +33,7 @@ export default function Home() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-50"
+            className="d-block w-100"
             src={pessoas}
             alt="second slide"
           />
@@ -44,7 +44,7 @@ export default function Home() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-50" src={qualificacao} alt="Third slide" />
+          <img className="d-block w-100" src={qualificacao} alt="Third slide" />
 
           <Carousel.Caption>
             <h3 class="carousel">Extras</h3>
