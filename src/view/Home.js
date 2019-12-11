@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 
 import aaaa from '../img/aaaa.jpg';
 import cursos from "../img/cursos.jpg";
-import pessoas from "../img/pessoas(1).jpg";
-import qualificacao from "../img/qualificacao(1).jpg";
+import slide2 from "../img/slide2.jpg";
+import slide3 from "../img/slide3.jpg";
 
 import Css from '../img/css.svg';
 import HTML from '../img/HTML.svg';
@@ -34,7 +34,7 @@ export default function Home() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={pessoas}
+            src={slide2}
             alt="second slide"
           />
 
@@ -44,7 +44,7 @@ export default function Home() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={qualificacao} alt="Third slide" />
+          <img className="d-block w-100" src={slide3} alt="Third slide" />
 
           <Carousel.Caption>
             <h3 class="carousel">Extras</h3>
