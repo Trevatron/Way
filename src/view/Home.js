@@ -105,6 +105,12 @@ const Sec = styled.section`
 `;
 
 const Body = styled.body`
+
+body{
+  width:1000px;
+  heigth:900px;
+}
+
   .carousel{
     color: blue;
   }
