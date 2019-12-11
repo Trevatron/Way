@@ -23,6 +23,4 @@ export default function App() {
 const Corpo = styled.body`
   margin: 0em;
   height: auto;
-  max-width: 1000px;
-
 `;
